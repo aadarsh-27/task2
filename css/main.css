@@ -1,0 +1,81 @@
+body{
+    background-color: #EEEEEE;
+}
+.login-box{
+    background-color: #FFFFFF;
+    width: 488px;
+    height: 575px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #FFFFFF;
+    border-top: 4px solid #3AC7EC;
+}
+
+.headtitle{
+    font-size: 24px;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+.title{
+    margin: 0 126px;
+}
+.backbtn{
+    margin-left: 32px;
+    padding-top: 2px;
+}
+
+.radiobtnbox{
+    margin-top: 34px;
+    height: 24px;
+}
+.dist{
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.radiobtn{
+        /* margin-left: 12px; */
+    padding-right: 8px;
+    margin-left: 32px;
+    
+}
+
+.school{
+    margin-top: -19px;
+    font-size: 16px;
+    margin-left: 181px;
+}
+.radiobtn2{
+    margin-top: -22px;
+    margin-left: 85px;
+}
+/* .login-box h1{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+.login-box .backbtn{
+    position: absolute;
+    top: 132px;
+    margin-left: 32px;
+} */
+
+@media only screen and (min-width: 321px) and (max-width: 767px)  {
+    .login-box{
+        width: 350px;
+    }
+    }
+
+
+  @media (max-width: 320px){
+    .title{
+        /* text-align: center; */
+        font-size: 20px;
+        margin: 0 50px;
+    }
+    .login-box{
+        width: 300px;
+    }
+  }
+  
