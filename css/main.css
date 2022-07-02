@@ -11,6 +11,10 @@ body{
     border-top: 4px solid #3AC7EC;
 }
 
+.login-box form{
+    padding: 0 32px;
+    box-sizing: border-box;
+}
 .headtitle{
     font-size: 24px;
     margin-top: 20px;
@@ -50,16 +54,56 @@ body{
     margin-top: -22px;
     margin-left: 85px;
 }
-/* .login-box h1{
-    font-size: 24px;
-    text-align: center;
-    margin-top: 20px;
+
+.select-state{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 26px;
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
 }
-.login-box .backbtn{
-    position: absolute;
-    top: 132px;
+
+.select-district{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 37px;
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.select label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+select{
+    border: none;
+    border-bottom: 1px solid #cfc7c7;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+    color: #222222;
+    font-weight: bold;
+}
+
+.district {
     margin-left: 32px;
-} */
+}
+
+.select select{
+    appearance: none;
+    background-image: url(icons/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 @media only screen and (min-width: 321px) and (max-width: 767px)  {
     .login-box{
